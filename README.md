@@ -19,6 +19,7 @@ Testing the Application
 To test the application, you can use any REST client, such as Postman. You can also use the command line tool curl.
 
 The following endpoints are available:
+
 POST /api/v1/droneRegistration: Creates a new drone
 POST /api/v1/loadMedicationByDroneID/{droneId}: Adds medications to a specific drone
 GET /api/v1/getMedicationByDroneId/{droneId}: Returns a list of medication by specific drone.
